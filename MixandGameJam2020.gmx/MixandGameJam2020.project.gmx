@@ -11,10 +11,22 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\game_is_paused.gml</script>
+    <script>scripts\game_is_wait.gml</script>
+    <script>scripts\game_set_pause.gml</script>
+    <script>scripts\game_set_wait.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_test</object>
+    <objects name="Handlers">
+      <object>objects\obj_game_init</object>
+      <object>objects\obj_handler</object>
+      <object>objects\obj_handler_global</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_init</room>
     <room>rooms\room0</room>
   </rooms>
   <help>
