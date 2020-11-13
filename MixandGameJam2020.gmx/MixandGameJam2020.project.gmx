@@ -13,9 +13,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\game_is_paused.gml</script>
-    <script>scripts\game_is_wait.gml</script>
     <script>scripts\game_set_pause.gml</script>
-    <script>scripts\game_set_wait.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_test</object>
