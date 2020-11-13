@@ -9,6 +9,9 @@
     <sprite>sprites\spr_debug</sprite>
     <sprite>sprites\sprite2</sprite>
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_player_mia</sprite>
+    <sprite>sprites\spr_block</sprite>
+    <sprite>sprites\spr_font_vwf_shadow</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -24,6 +27,8 @@
       <object>objects\obj_handler_global</object>
     </objects>
     <object>objects\obj_player</object>
+    <object>objects\obj_player_mia</object>
+    <object>objects\obj_solid</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
