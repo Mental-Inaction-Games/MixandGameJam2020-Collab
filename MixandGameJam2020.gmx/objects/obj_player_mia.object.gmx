@@ -72,6 +72,7 @@ if!(game_is_paused()){
             //set x and y velocity according to player inputs
             vx = (right - left) * player_speed;
             vy = (down - up) * player_speed;
+<<<<<<< HEAD
             
             //get direction the player is holding, if the player is holding a direction. This is used for animation
             if((left)or(up)or(right)or(down)){
@@ -104,6 +105,8 @@ if!(game_is_paused()){
                 };
                 player_state = "state_walk";
             };
+=======
+>>>>>>> parent of 5fb9ae8... Merge branch 'Mia-Working-Branch'
             break;
     
     };
