@@ -12,6 +12,11 @@
     <sprite>sprites\spr_player_mia</sprite>
     <sprite>sprites\spr_block</sprite>
     <sprite>sprites\spr_font_vwf_shadow</sprite>
+    <sprite>sprites\spr_carrot</sprite>
+    <sprite>sprites\spr_honeyslime</sprite>
+    <sprite>sprites\spr_noodle</sprite>
+    <sprite>sprites\spr_tomato</sprite>
+    <sprite>sprites\spr_chicken</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
