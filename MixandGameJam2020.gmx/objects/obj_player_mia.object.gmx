@@ -64,38 +64,6 @@ if!(game_is_paused()){
         case "state_walk":
             vx = (right - left) * player_speed;
             vy = (down - up) * player_speed;
-            
-            //get direction the player is holding, if the player is holding a direction. This is used for animation
-            if((left)or(up)or(right)or(down)){
-                direction = point_direction(0,0,right - left,down - up);
-            };
-            
-            //Move to attacking state if Z is pressed
-            if(attack){
-                player_state = "state_attack";
-                image_index = 0;
-                attack_timer = attack_timer_max;
-                vx = 0;
-                vy = 0;
-            };
-            break;
-            
-        case "state_attack":
-            if(attack_timer &gt; 0){
-                //create attack object after certain frame
-                if((attack_timer &lt; attack_timer_max - 12)and!(instance_exists(obj_attack_player))){
-                    instance_create(x+lengthdir_x(16,direction),y+lengthdir_y(16,direction),obj_attack_player);
-                };
-                attack_timer--;
-            }else{
-                //destroy attack object, if it exists, and then exit state
-                if(instance_exists(obj_attack_player)){
-                    with(obj_attack_player){
-                        instance_destroy();
-                    };
-                };
-                player_state = "state_walk";
-            };
             break;
     
     };
