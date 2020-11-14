@@ -9,6 +9,7 @@
     <sprite>sprites\spr_debug</sprite>
     <sprite>sprites\sprite2</sprite>
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_player_mia</sprite>
     <sprite>sprites\spr_block</sprite>
     <sprite>sprites\spr_font_vwf_shadow</sprite>
     <sprite>sprites\spr_carrot</sprite>
@@ -16,23 +17,6 @@
     <sprite>sprites\spr_noodle</sprite>
     <sprite>sprites\spr_tomato</sprite>
     <sprite>sprites\spr_chicken</sprite>
-    <sprites name="Player Mia">
-      <sprite>sprites\spr_player_mia</sprite>
-      <sprite>sprites\spr_player_mia_stand_up</sprite>
-      <sprite>sprites\spr_player_mia_stand_down</sprite>
-      <sprite>sprites\spr_player_mia_stand_left</sprite>
-      <sprite>sprites\spr_player_mia_stand_right</sprite>
-      <sprite>sprites\spr_player_mia_walk_up</sprite>
-      <sprite>sprites\spr_player_mia_walk_down</sprite>
-      <sprite>sprites\spr_player_mia_walk_left</sprite>
-      <sprite>sprites\spr_player_mia_walk_right</sprite>
-      <sprite>sprites\spr_player_mia_attack_up</sprite>
-      <sprite>sprites\spr_player_mia_attack_down</sprite>
-      <sprite>sprites\spr_player_mia_attack_left</sprite>
-      <sprite>sprites\spr_player_mia_attack_right</sprite>
-      <sprite>sprites\spr_player_attack_hitbox</sprite>
-      <sprite>sprites\spr_player_pan_left</sprite>
-    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -51,7 +35,6 @@
     <object>objects\obj_player_mia</object>
     <object>objects\obj_solid</object>
     <object>objects\object7</object>
-    <object>objects\obj_attack_player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
