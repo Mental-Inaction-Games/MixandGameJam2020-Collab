@@ -116,7 +116,7 @@ if!(game_is_paused()){
                 };
                 attack_timer--;
             }else{
-                //destroy attack object, if it exists, and then exit state
+                //destroy attack object if it exists and then exit state
                 if(instance_exists(obj_attack_player)){
                     with(obj_attack_player){
                         instance_destroy();
