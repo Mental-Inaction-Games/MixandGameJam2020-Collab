@@ -13,9 +13,7 @@
     <sprite>sprites\spr_block</sprite>
     <sprite>sprites\spr_font_vwf_shadow</sprite>
   </sprites>
-  <backgrounds name="background">
-    <background>background\bg_tileset</background>
-  </backgrounds>
+  <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\game_is_paused.gml</script>

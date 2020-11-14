@@ -150,6 +150,7 @@
     <instance objName="obj_solid" x="176" y="80" name="inst_8B625CE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="176" y="96" name="inst_485F83C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="176" y="112" name="inst_F85EF655" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   </instances>
   <tiles/>
@@ -365,6 +366,10 @@
     <tile bgName="bg_tileset" x="80" y="48" w="16" h="16" xo="1" yo="52" id="10000418" name="inst_260BC374" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
 >>>>>>> Stashed changes
+=======
+  </instances>
+  <tiles/>
+>>>>>>> parent of ac1d4a0... Dungeon tiles and setup
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>
