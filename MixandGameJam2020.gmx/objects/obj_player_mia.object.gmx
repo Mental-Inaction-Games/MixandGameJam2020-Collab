@@ -65,7 +65,6 @@ if!(game_is_paused()){
             vx = (right - left) * player_speed;
             vy = (down - up) * player_speed;
             break;
-    
     };
     
     //physics
